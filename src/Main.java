@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        MoveZeroes mv = new MoveZeroes();
-        int[] arr = {0,2,0,12};
-        mv.moveZeroes(arr);
+        IsSubstring is = new IsSubstring();
+        boolean res =is.isSubstring("aasace", "");
+        System.out.println(res);
     }
 }
