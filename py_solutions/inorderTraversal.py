@@ -9,7 +9,10 @@ class TreeNode:
 
 
 class Solution:
-    def inorderTraversal(self, root):            
+    def inorderTraversal(self, root):
+        if not root:
+            return []
+        
         res = []
         
         # Left
